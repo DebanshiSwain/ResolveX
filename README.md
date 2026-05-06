@@ -1,4 +1,4 @@
-# ResolveX  
+# 🚀 ResolveX  
 ### Smart Complaint Management & Escalation System
 
 <div align="center">
@@ -72,7 +72,8 @@ It allows users to raise complaints and track them in real time, while administr
 ---
 
 ## 📂 Project Structure
-'''bash
+
+```bash
 ResolveX/
 │
 ├── database/
@@ -109,9 +110,6 @@ ResolveX/
 │   └── 7.png
 │
 └── README.md
-
----
-
 ## 🗄️ Database Design
 
 The system uses **PostgreSQL** as the backend database.
@@ -120,24 +118,25 @@ Main tables include:
 - Users / Complaints
 - Admins
 - Departments
+- Updates
 
-These tables handle complaint lifecycle, authentication, and workflow management.
+These tables manage authentication, complaint lifecycle, department allocation, and status tracking.
 
 ---
 
 ## 🔄 How It Works
-'''bash
-User submits complaint
-        ↓
-Complaint stored in database
-        ↓
-Admin reviews from dashboard
-        ↓
-Assigned to department
-        ↓
-Status updated (Pending → In Progress → Resolved)
-        ↓
-User tracks progress in real time
+
+User submits complaint  
+↓  
+Complaint stored in PostgreSQL database  
+↓  
+Admin logs in and views complaints on dashboard  
+↓  
+Complaint is assigned to a department (and slot if required)  
+↓  
+Admin updates status (Pending → In Progress → Resolved)  
+↓  
+User tracks real-time status using tracking page  
 
 ---
 
@@ -147,24 +146,26 @@ User tracks progress in real time
 - Working with backend databases (PostgreSQL)  
 - Designing role-based systems (User/Admin)  
 - Handling session management and authentication  
-- Structuring a full-stack mini project  
+- Structuring a full-stack academic project  
 
 ---
 
 ## 🚀 Future Improvements
 
-- Email notifications for status updates  
-- Better UI/UX with modern frontend design  
-- Deployment on cloud platform  
-- Role-based access control improvements  
-- Analytics dashboard for admin insights  
+- Email notifications for complaint updates  
+- Improved UI/UX with modern frontend frameworks  
+- Deployment on cloud platforms  
+- Advanced admin analytics dashboard  
+- Role-based access control enhancements  
 
 ---
 
 ## 👨‍💻 Developer
 
-This project was built as part of an academic lab submission to demonstrate full-stack web development fundamentals using Java-based technologies.
+This project was developed as part of an academic **Internet & Web Technology Lab Project**, focusing on full-stack web development using Java-based technologies along with Simran Sahoo and Narayani Kundu.
 
 ---
 
-⭐ *ResolveX focuses on simplicity, structure, and transparency in complaint management.*
+## ⭐ Final Note
+
+ResolveX is designed to bring **simplicity, structure, and transparency** into complaint handling systems by replacing manual processes with a centralized digital workflow.
