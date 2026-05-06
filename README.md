@@ -110,6 +110,8 @@ ResolveX/
 │   └── 7.png
 │
 └── README.md
+
+```
 ## 🗄️ Database Design
 
 The system uses **PostgreSQL** as the backend database.
