@@ -72,6 +72,7 @@ It allows users to raise complaints and track them in real time, while administr
 ---
 
 ## 📂 Project Structure
+'''bash
 ResolveX/
 │
 ├── database/
@@ -125,6 +126,7 @@ These tables handle complaint lifecycle, authentication, and workflow management
 ---
 
 ## 🔄 How It Works
+'''bash
 User submits complaint
         ↓
 Complaint stored in database
