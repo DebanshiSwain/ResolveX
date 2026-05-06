@@ -74,26 +74,40 @@ It allows users to raise complaints and track them in real time, while administr
 ## 📂 Project Structure
 ResolveX/
 │
-├── jsp/
-│ ├── index.jsp
-│ ├── adminLogin.jsp
-│ ├── adminDashboard.jsp
-│ ├── dashboard.jsp
-│ ├── raiseComplaint.jsp
-│ ├── trackComplaint.jsp
-│ ├── updateStatus.jsp
-│ ├── deleteComplaint.jsp
-│ ├── forgotPassword.jsp
-│ └── logout.jsp
-│
 ├── database/
-│ └── SQL scripts
+│   ├── admins.sql
+│   ├── complaints.sql
+│   ├── departments.sql
+│   └── updates.sql
 │
 ├── documentation/
-│ └── Project report & presentation
+│   ├── images/
+│   │   └── background.png
+│
+├── jsp-files/
+│   ├── index.jsp
+│   ├── adminLogin.jsp
+│   ├── adminDashboard.jsp
+│   ├── dashboard.jsp
+│   ├── raiseComplaint.jsp
+│   ├── trackComplaint.jsp
+│   ├── updateStatus.jsp
+│   ├── deleteComplaint.jsp
+│   ├── forgotPassword.jsp
+│   ├── logout.jsp
+│   ├── assignSlot.jsp
+│   └── saveSlot.jsp
+│
+├── screenshots/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 5.png
+│   ├── 6.png
+│   └── 7.png
 │
 └── README.md
-
 
 ---
 
@@ -112,17 +126,16 @@ These tables handle complaint lifecycle, authentication, and workflow management
 
 ## 🔄 How It Works
 User submits complaint
-↓
+        ↓
 Complaint stored in database
-↓
+        ↓
 Admin reviews from dashboard
-↓
+        ↓
 Assigned to department
-↓
+        ↓
 Status updated (Pending → In Progress → Resolved)
-↓
+        ↓
 User tracks progress in real time
-
 
 ---
 
