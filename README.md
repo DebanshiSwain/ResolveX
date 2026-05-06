@@ -1,5 +1,5 @@
-# 🚀 ResolveX  
-### Complaint Management & Escalation System
+# ResolveX  
+### Smart Complaint Management & Escalation System
 
 <div align="center">
 
@@ -9,86 +9,147 @@
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-*A structured and transparent complaint handling platform built for efficient complaint registration, tracking, escalation, and administration.*
+*A structured system to simplify complaint registration, tracking, and resolution with transparent escalation flow.*
 
 </div>
 
 ---
 
-## 📌 Overview
+## 📌 About the Project
 
-ResolveX is a web-based Complaint Management & Escalation System developed as part of our **Internet & Web Technology Lab Project**.
+ResolveX is a web-based complaint management system developed as part of our **Internet & Web Technology Lab Project**.
 
-The system was designed to simplify and digitize the complaint handling process by providing a centralized platform where users can:
+The main idea behind this project was to replace traditional, unorganized complaint handling (manual follow-ups, confusion in status tracking, and delayed responses) with a **centralized digital system**.
 
-✔️ Raise complaints  
-✔️ Track complaint progress in real time  
-✔️ Receive structured complaint management  
-✔️ Experience transparent escalation workflows  
+It allows users to raise complaints and track them in real time, while administrators can manage, assign, and resolve them efficiently through a dedicated dashboard.
 
-At the same time, administrators can efficiently manage complaints through a dedicated dashboard with department allocation and status update functionalities.
+---
+
+## 🎯 Objectives
+
+- Digitize the complaint registration process  
+- Provide real-time tracking of complaints  
+- Introduce structured escalation between departments  
+- Enable smooth admin-level management and control  
+- Improve transparency in complaint resolution  
 
 ---
 
 ## ✨ Key Features
 
-### 👤 User Side
-- Complaint Registration System
-- Real-Time Complaint Tracking
-- Complaint History Management
-- Forgot Password Module
-- Secure Login & Logout
+### 👤 User Module
+- Easy complaint registration
+- Real-time complaint status tracking
+- View submitted complaints history
+- Secure login system
+- Forgot password support
 
-### 🛠️ Admin Side
-- Admin Authentication
-- Centralized Admin Dashboard
-- Complaint Status Management
-- Department-Based Complaint Allocation
-- Complaint Deletion & Management
-- Slot Assignment Functionality
+### 🛠️ Admin Module
+- Secure admin login
+- Central dashboard for all complaints
+- Update complaint status
+- Assign complaints to departments
+- Delete or manage records
 
-### ⚡ System Features
-- Structured Escalation Workflow
-- PostgreSQL Database Integration
-- Interactive JSP-Based Pages
-- Organized Complaint Lifecycle Management
+### ⚙️ System Features
+- Structured escalation workflow
+- Department-based routing
+- PostgreSQL database integration
+- JSP-based dynamic pages
+- Session-based authentication
 
 ---
 
-## 🖥️ Tech Stack
+## 🧰 Tech Stack
 
-| Technology | Purpose |
-|---|---|
-| JSP (Java Server Pages) | Frontend & Backend Integration |
-| Java | Core Application Logic |
-| PostgreSQL | Database Management |
-| PGAdmin 4 | Database Administration |
-| HTML/CSS | UI Design |
-| Eclipse IDE | Development Environment |
+| Layer | Technology |
+|------|------------|
+| Frontend | HTML, CSS |
+| Backend | Java, JSP |
+| Database | PostgreSQL |
+| Tools | Eclipse IDE, PGAdmin 4 |
 
 ---
 
 ## 📂 Project Structure
-
-```bash
 ResolveX/
 │
 ├── jsp/
-│   ├── index.jsp
-│   ├── adminLogin.jsp
-│   ├── adminDashboard.jsp
-│   ├── dashboard.jsp
-│   ├── raiseComplaint.jsp
-│   ├── trackComplaint.jsp
-│   ├── updateStatus.jsp
-│   ├── deleteComplaint.jsp
-│   ├── forgotPassword.jsp
-│   └── logout.jsp
+│ ├── index.jsp
+│ ├── adminLogin.jsp
+│ ├── adminDashboard.jsp
+│ ├── dashboard.jsp
+│ ├── raiseComplaint.jsp
+│ ├── trackComplaint.jsp
+│ ├── updateStatus.jsp
+│ ├── deleteComplaint.jsp
+│ ├── forgotPassword.jsp
+│ └── logout.jsp
 │
 ├── database/
-│   └── SQL Scripts
+│ └── SQL scripts
 │
 ├── documentation/
-│   └── Project Presentation & Docs
+│ └── Project report & presentation
 │
 └── README.md
+
+
+---
+
+## 🗄️ Database Design
+
+The system uses **PostgreSQL** as the backend database.
+
+Main tables include:
+- Users / Complaints
+- Admins
+- Departments
+
+These tables handle complaint lifecycle, authentication, and workflow management.
+
+---
+
+## 🔄 How It Works
+User submits complaint
+↓
+Complaint stored in database
+↓
+Admin reviews from dashboard
+↓
+Assigned to department
+↓
+Status updated (Pending → In Progress → Resolved)
+↓
+User tracks progress in real time
+
+
+---
+
+## 📈 What I Learned
+
+- Building dynamic web applications using JSP  
+- Working with backend databases (PostgreSQL)  
+- Designing role-based systems (User/Admin)  
+- Handling session management and authentication  
+- Structuring a full-stack mini project  
+
+---
+
+## 🚀 Future Improvements
+
+- Email notifications for status updates  
+- Better UI/UX with modern frontend design  
+- Deployment on cloud platform  
+- Role-based access control improvements  
+- Analytics dashboard for admin insights  
+
+---
+
+## 👨‍💻 Developer
+
+This project was built as part of an academic lab submission to demonstrate full-stack web development fundamentals using Java-based technologies.
+
+---
+
+⭐ *ResolveX focuses on simplicity, structure, and transparency in complaint management.*
